@@ -1,0 +1,9 @@
+.headerDiv{
+    /*margin: 5px ;*/
+    display: flex;
+    height: 80px;
+    background-color: lightpink;
+    justify-content: flex-end;
+    align-items: center;
+    /*position: fixed;*/
+}

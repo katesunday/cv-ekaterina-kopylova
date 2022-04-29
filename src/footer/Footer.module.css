@@ -1,0 +1,19 @@
+.footerDiv{
+    display: flex;
+    height: 80px;
+    background-color: lightpink;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+.copyright{
+    font-family: arial,sans-serif;
+    font-size: 12px;
+    color: #8a8a8a;
+}
+.linkedinLogo{
+    width: 30px;
+}
+.socialNetworks a{
+    margin: 5px;
+}

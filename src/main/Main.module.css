@@ -1,0 +1,24 @@
+.mainDiv{
+    height: 100vh;
+    background-color: lightblue;
+}
+
+.description{
+    width: 300px;
+    background-color: lightgray;
+
+}
+.photo{
+    width: 300px;
+    height: 400px;
+    background-color: lightsteelblue;
+}
+@media (max-width: 400px) {
+    .mainDiv{
+
+    }
+    .photo {
+        width: 250px;
+        height: 300px;
+    }
+}

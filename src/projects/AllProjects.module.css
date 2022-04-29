@@ -1,0 +1,31 @@
+.allProjectsBlock{
+    height: 100vh;
+    background-color: lightsteelblue;
+}
+.allProjectsContainer{
+    justify-content: flex-start;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.projectTitle{
+    width: 100%;
+    height: 30px;
+text-align: center;
+}
+.linksToProjects{
+    display: flex;
+
+    flex-wrap: wrap;
+}
+@media (max-width: 400px){
+    .allProjectsBlock{
+        height: unset;
+    }
+    .allProjectsContainer{
+        padding-top: 10px;
+    }
+    .linksToProjects{
+        flex-direction: column;
+    }
+}
