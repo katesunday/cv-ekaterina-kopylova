@@ -11,7 +11,7 @@ const AllSkills = () => {
     return (
         <div className={s.skillsBlock}>
             <div className={`${SC.container} ${s.skillsContainer}`}>
-                <h2>Skills</h2>
+               <div className={s.skillsHeader}><h2>Skills</h2></div>
                 <div className={s.skills}>
                     <Skill title={'JS'} description={description}/>
                     <Skill title={'CSS'} description={description}/>

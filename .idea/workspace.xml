@@ -2,30 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5e473c3-00f7-45d8-aaa0-fc7f2791c70c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/styles/Container.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contacts/Contacts.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contacts/Contacts.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/footer/Footer.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/footer/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/header/Header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Main.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/Main.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nav/Nav.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nav/Nav.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projects/AllProjects.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projects/AllProjects.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projects/project/Project.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/projects/project/Project.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/skills/AllSkills.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/skills/AllSkills.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/skills/skill/Skill.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/skills/skill/Skill.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hireMe/HireMe.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hireMe/HireMe.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/Contacts.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/AllProjects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/AllProjects.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/AllProjects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/AllProjects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/project/Project.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/project/Project.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skills/AllSkills.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/AllSkills.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skills/AllSkills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/AllSkills.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,8 +64,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651228319295</updated>
-      <workItem from="1651228327523" duration="14970000" />
+      <workItem from="1651228327523" duration="18416000" />
     </task>
+    <task id="LOCAL-00001" summary="cv">
+      <created>1651248047948</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1651248047948</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,5 +89,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="cv" />
+    <option name="LAST_COMMIT_MESSAGE" value="cv" />
   </component>
 </project>

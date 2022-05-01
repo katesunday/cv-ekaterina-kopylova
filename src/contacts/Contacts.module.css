@@ -1,5 +1,6 @@
 .contactsBlock{
-    height: 100vh;
+    /*height: 100vh;*/
+    padding-bottom: 20px;
     background-color: lightyellow;
 }
 .contactForm label{
@@ -27,7 +28,7 @@
     -webkit-font-smoothing: antialiased;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
+    /*-ms-transition: all .3s ease-in-out;*/
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }

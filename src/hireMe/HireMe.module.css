@@ -1,0 +1,8 @@
+.HireMeBlock{
+    background-color: #e5c0c5;
+    padding-bottom: 20px;
+}
+.container{
+    flex-direction: column;
+    padding-bottom: 10px;
+}

@@ -10,7 +10,8 @@ const AllProjects = () => {
     return (
         <div className={s.allProjectsBlock}>
             <div className={`${SC.container} ${s.allProjectsContainer}`}>
-                <div className={s.projectTitle}>My Projects</div>
+                <div className={s.projectTitle}>
+                    <h3>My Projects</h3></div>
                 <div className={s.linksToProjects}>
                     <Project title={'CSS-Layout'} description={description}/>
                     <Project title={'JS-game'} description={description}/>

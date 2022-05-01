@@ -1,24 +1,31 @@
 .skillsBlock{
-    height: 100vh;
+    /*height: 100vh;*/
     background-color: lightcyan;
 }
 .skillsBlock h2{
     background-color: lightgray;
 }
 .skillsContainer{
-    justify-content: flex-start;
-    flex-direction: column;
+    /*justify-content: flex-start;*/
+    /*flex-direction: column;*/
+    padding-bottom: 20px;
+}
+.skillsHeader{
+    width: 100%;
+    text-align: center;
 }
 .skills{
     display: flex;
+    /*flex-direction: column;*/
     border: 1px solid;
     width: 80%;
     flex-wrap: wrap;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 @media (max-width: 400px){
     .skillsBlock{
-        height: unset;
+        height: inherit;
         padding-bottom: 10px;
     }
     .skillsContainer{
