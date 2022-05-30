@@ -1,21 +1,29 @@
 import React from 'react';
-import s from './AllSkills.module.css';
-import SC from './../common/styles/Container.module.css';
+import s from './AllSkills.module.scss';
+import SC from '../common/styles/Container.module.scss';
 import Skill from "./skill/Skill";
+import Title from "../common/components/Title";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 const AllSkills = () => {
-    const description  =' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium, ' +
-        'alias animi cum cumque delectus earum error expedita facere facilis molestias necessitatibus non ' +
-        'odio porro quaerat qui reiciendis. Accusantium, perspiciatis.'
     return (
+
         <div className={s.skillsBlock}>
+            {/*<FontAwesomeIcon icon="fa-brands fa-sass" />*/}
             <div className={`${SC.container} ${s.skillsContainer}`}>
-               <div className={s.skillsHeader}><h2>Skills</h2></div>
+               <div className={s.skillsHeader}>
+                   <Title title={'Skills'}/>
+               </div>
                 <div className={s.skills}>
-                    <Skill title={'JS'} description={description}/>
-                    <Skill title={'CSS'} description={description}/>
-                    <Skill title={'REACT'} description={description}/>
+                    <Skill title={'HTML5'} />
+                    <Skill title={'CSS'} />
+                    <Skill title={'Sass'} />
+                    <Skill title={'JavaScript'} />
+                    <Skill title={'TypeScript'} />
+                    <Skill title={'React-redux'} />
+                    <Skill title={'Storybook'} />
+                    <Skill title={'GIT'} />
                 </div>
             </div>
         </div>

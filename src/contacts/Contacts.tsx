@@ -1,21 +1,21 @@
 import React from 'react';
-import s from './Contacts.module.css'
-import SC from "../common/styles/Container.module.css";
+import s from './Contacts.module.scss'
+import SC from "../common/styles/Container.module.scss";
 
 const Contacts = () => {
     return (
         <div className={s.contactsBlock}>
             <div className={SC.container}>
-                <div>
+                <div className={s.myContacts}>
                     <h3>My contacts:</h3>
-                    <div>email: blabla@gmail.com</div>
+                    <p>email: blabla@gmail.com</p>
                     <div>
                         <a href="tel:+971589757057">Contact me by phone</a>
                     </div>
                 </div>
-                <div>
+                <div className={s.contactForm}>
                     <p>Or just send me an email straight through here:</p>
-                    <fieldset className={s.contactForm}>
+                    <fieldset >
                         <label htmlFor="name">Name</label>
                         <input type="text" name="name" id="name"/>
                         <label htmlFor="email">Email</label>

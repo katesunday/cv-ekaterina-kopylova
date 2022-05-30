@@ -1,0 +1,36 @@
+@import "src/common/styles/variables";
+
+.mainDiv {
+  height: 100vh;
+  background-image: url("../common/img/bg.jpeg");
+}
+
+.description {
+  width: 300px;
+  //background-color: lightgray;
+  p {
+    font-family: $basicFont;
+    font-size: $basicFontSize + 9px;
+    text-align: right;
+    line-height: 30px;
+    font-weight: $bold - 200;
+    color: #212121;
+  }
+
+}
+
+.photo {
+  width: 300px;
+  height: 400px;
+  background-color: lightsteelblue;
+}
+
+@media (max-width: 600px) {
+  .mainDiv {
+
+  }
+  .photo {
+    width: 250px;
+    height: 300px;
+  }
+}

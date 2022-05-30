@@ -1,0 +1,32 @@
+@import "src/common/styles/variables";
+.skill{
+    position: relative;
+    margin: 5px;
+    width: 250px;
+    height: 130px;
+    h3{
+        @include basicText();
+        position: absolute;
+        bottom: 0;
+    }
+
+}
+.skillLogo{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: darkgrey;
+    transform: rotate(45deg);
+    margin: 20px auto 0;
+}
+.skillLoader{
+    width: 200px ;
+    height: 5px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #ed3200 70%, #cecbcb 30%)
+}
+
+@media (max-width: 400px){
+    .skill{
+    }
+}

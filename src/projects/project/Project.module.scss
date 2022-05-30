@@ -1,0 +1,32 @@
+@import "/src/common/styles/variables";
+.oneProjectBlock{
+
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+    h4{
+        font-size: $basicFontSize + 5px;
+        font-family: $basicFont;
+        line-height: 10px;
+        color: $black;
+
+    }
+    span{
+        @include basicText()
+    }
+}
+.projectPic{
+    border: 2px solid $light-grey;
+    width: 100%;
+    height: 200px;
+    background-color: darkslategray;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+@media (max-width: 600px){
+    .projectPic{
+        height: 100px;
+    }
+}

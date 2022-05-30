@@ -1,10 +1,4 @@
-.skillsBlock{
-    /*height: 100vh;*/
-    background-color: lightcyan;
-}
-.skillsBlock h2{
-    background-color: lightgray;
-}
+
 .skillsContainer{
     /*justify-content: flex-start;*/
     /*flex-direction: column;*/
@@ -16,8 +10,6 @@
 }
 .skills{
     display: flex;
-    /*flex-direction: column;*/
-    border: 1px solid;
     width: 80%;
     flex-wrap: wrap;
     flex-direction: row;

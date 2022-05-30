@@ -1,0 +1,79 @@
+@import "src/common/styles/variables";
+
+.contactsBlock {
+  /*height: 100vh;*/
+  padding-bottom: 20px;
+  background-color: $bgc;
+
+}
+
+.myContacts {
+  @include basicText();
+  width: 200px;
+
+  h3 {
+    color: $black;
+    font-size: $basicFontSize + 4px;
+  }
+
+  a {
+    border-bottom: 2px solid #ed3200;
+    display: inline-block;
+    font-size: $basicFontSize;
+    line-height: 12px;
+    letter-spacing: 0.05em;
+    padding-bottom: 8px;
+    text-decoration: none;
+    outline: 0;
+    color: $black;
+
+    &:hover {
+      transition: all 0.5s ease-in-out;
+      padding-left: 8px;
+      padding-right: 8px;
+      text-decoration: none;
+    }
+  }
+
+}
+
+.contactForm {
+  label {
+    display: block;
+    text-align: left;
+    color: #212121;
+    font-family: source sans pro, sans-serif;
+    font-size: 12px;
+    letter-spacing: .2em;
+    padding-bottom: 15px;
+  }
+
+  p {
+    color: $light-grey;
+  }
+}
+
+.contactForm input {
+  border: none;
+  outline: none;
+  padding: 0 0 15px;
+  margin-bottom: 40px;
+  width: 100%;
+  background: 0 0;
+  border-bottom: 2px solid #d1d1d1;
+  border-radius: 0;
+  font-family: source sans pro, sans-serif;
+  font-size: 16px;
+  color: #8a8a8a;
+  line-height: 22px;
+  -webkit-font-smoothing: antialiased;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  /*-ms-transition: all .3s ease-in-out;*/
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.contactForm textarea {
+  min-height: 100px;
+}
