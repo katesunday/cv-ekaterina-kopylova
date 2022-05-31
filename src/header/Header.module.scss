@@ -1,10 +1,73 @@
 @import "../common/styles/variables";
-.headerDiv{
-    /*margin: 5px ;*/
-    display: flex;
-    height: 80px;
-    background-color: $dark-grey;
-    justify-content: space-evenly;
-    align-items: center;
-    /*position: fixed;*/
+
+.headerDiv {
+  display: block;
+  width: 100%;
+  min-height: 45px;
+  max-height: inherit;
+  background: #fff;
+  border-bottom: 1px solid #f2f2f2;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  animation-name: fadeOut;
+  transition: all 0.3s ease-in-out;
+
+  .menuButton {
+    top: 14.5px;
+    cursor: pointer;
+    display: block;
+    width: 30px;
+    height: 14px;
+    right: 120px;
+    position: absolute;
+
+    .before {
+      width: 25px;
+      margin-bottom: 4px;
+      display: block;
+      height: 2px;
+      background: #212121;
+      //&:hover{
+      //    transition: transform 0.2s;
+      //}
+    }
+
+    .main {
+      width: 20px;
+      margin-bottom: 4px;
+      display: block;
+      height: 2px;
+      background: #212121;
+    }
+
+    .after {
+      width: 30px;
+      display: block;
+      height: 2px;
+      background: #212121;
+    }
+
+    &:active {
+      .before {
+        width: 20px;
+        margin: 0;
+        transition: transform 0.5s;
+        transform: translateY(2px) rotate(45deg);
+      }
+
+      .main {
+        display: none;
+      }
+
+      .after {
+        width: 20px;
+        margin: 0;
+        transition: transform 0.5s;
+        transform: translateY(0) rotate(-45deg);
+      }
+    }
+  }
 }

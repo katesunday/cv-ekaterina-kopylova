@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5e473c3-00f7-45d8-aaa0-fc7f2791c70c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/common/icons/Icon.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/common/icons/selection.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nav/Nav.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/nav/Nav.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/nav/Nav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skills/AllSkills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/AllSkills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skills/skill/Skill.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/skill/Skill.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skills/skill/Skill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/skill/Skill.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +26,20 @@
         <option value="TypeScript JSX File" />
         <option value="SCSS File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -34,7 +53,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="js.last.introduce.type" value="VAR" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/common/icons" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -44,6 +64,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/common/icons" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -60,7 +81,8 @@
       <updated>1651228319295</updated>
       <workItem from="1651228327523" duration="18416000" />
       <workItem from="1651407699206" duration="732000" />
-      <workItem from="1653908645131" duration="14741000" />
+      <workItem from="1653908645131" duration="14809000" />
+      <workItem from="1654000578409" duration="13617000" />
     </task>
     <task id="LOCAL-00001" summary="cv">
       <created>1651248047948</created>
@@ -83,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653927993821</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="cv">
+      <created>1653990047234</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653990047234</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -4,10 +4,28 @@ import s from './Nav.module.scss'
 const Nav = () => {
     return (
         <div className={s.nav}>
-            <a href=''>Main</a>
-            <a href=''>Skills</a>
-            <a href=''>Projects</a>
-            <a href=''>Contacts</a>
+            <ul>
+                <li>
+                    <a href=''>Main</a>
+                </li>
+                <li>
+                    <a href=''>Skills</a>
+                </li>
+                <li>
+                    <a href=''>Projects</a>
+                </li>
+                <li>
+                    <a href=''>Experience</a>
+                </li>
+                <li>
+                    <a href=''>Contacts</a>
+                </li>
+
+            </ul>
+
+
+
+
         </div>
     );
 };
