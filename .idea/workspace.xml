@@ -2,18 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5e473c3-00f7-45d8-aaa0-fc7f2791c70c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/icons/Icon.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/icons/selection.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nav/Nav.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/nav/Nav.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/nav/Nav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/nav/Nav.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skills/AllSkills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/AllSkills.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skills/skill/Skill.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/skill/Skill.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skills/skill/Skill.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/skill/Skill.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/styles/Container.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/styles/Container.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +72,7 @@
       <workItem from="1651228327523" duration="18416000" />
       <workItem from="1651407699206" duration="732000" />
       <workItem from="1653908645131" duration="14809000" />
-      <workItem from="1654000578409" duration="13617000" />
+      <workItem from="1654000578409" duration="13790000" />
     </task>
     <task id="LOCAL-00001" summary="cv">
       <created>1651248047948</created>
@@ -112,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653990047234</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="cv">
+      <created>1654016907126</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1654016907126</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
