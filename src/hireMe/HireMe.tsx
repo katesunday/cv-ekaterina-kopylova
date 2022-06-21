@@ -6,7 +6,7 @@ const HireMe = () => {
     return (
         <div className={s.HireMeBlock}>
             <div className={`${SC.container} ${s.container}`}>
-                <h2>I am available for remote work.</h2>
+                <h2>Considering remote work options.</h2>
                 <div>
                     {/*<a href='#'>Download resume </a>*/}
                     <a href='#'>Hire me</a>

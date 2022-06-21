@@ -14,3 +14,25 @@ code {
 *{
   box-sizing: border-box;
 }
+
+
+/*.myNode-enter {*/
+/*  opacity: 0;*/
+/*}*/
+/*.myNode-enter-active {*/
+/*  opacity: 1;*/
+/*  transition: all 5s ease;*/
+/*  transform: translateY(-150%);*/
+/*  animation: ani 1s forwards;*/
+/*}*/
+/*@keyframes ani {*/
+/*  0% {transform: translateY(-150%);}*/
+/*  100% {transform: translateY(0);}*/
+/*}*/
+/*.myNode-exit {*/
+/*  opacity: 1;*/
+/*}*/
+/*.myNode-exit-active {*/
+/*  opacity: 0;*/
+/*  transition: all 700ms;*/
+/*}*/

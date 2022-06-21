@@ -2,19 +2,39 @@ import React , {useState} from 'react';
 import s from './Header.module.scss'
 import SC from '../common/styles/Container.module.scss'
 import Nav from "../nav/Nav";
+//@ts-ignore
+import { CSSTransition } from "react-transition-group";
 
 const Header = () => {
-    const [active,setActive] = useState(false)
-    const condition = active? 'active' : null
+    const [active , setActive] = useState(false)
+    // const condition = active? 'active' : null
+    //active ? s.menuButton + s.active :
     return (
         <div className={s.headerDiv}>
             <div className={SC.container}>
-                <div className={s.menuButton} onClick={()=>setActive(!active)} >
-                    <span className={s.before}></span>
-                    <span className={s.main}></span>
-                    <span className={s.after}></span>
+                <div className={active ? s.menuButtonActive :s.menuButton} onClick={() =>{
+                    setActive(!active)
+                }}>
+                    <span className={s.before}> </span>
+                    <span className={s.main}> </span>
+                    <span className={s.after}> </span>
                 </div>
-                {!active &&<Nav/>}
+                {/*{active && <Nav/>}*/}
+
+                <CSSTransition
+                    in={active}
+                    timeout= {0}
+                    classNames="myNode"
+                    unmountOnExit
+                    appear
+                    onEntered={()=>setActive(true)}
+                    onExit={()=>setActive(false)}
+                >
+                    {active ? <Nav/>: <></>}
+                    {/*<Nav/>*/}
+
+                </CSSTransition>
+
             </div>
 
 

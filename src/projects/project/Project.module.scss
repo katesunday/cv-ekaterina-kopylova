@@ -1,32 +1,68 @@
 @import "/src/common/styles/variables";
-.oneProjectBlock{
 
-    width: 200px;
-    padding: 5px;
-    margin: 10px;
-    h4{
-        font-size: $basicFontSize + 5px;
-        font-family: $basicFont;
-        line-height: 10px;
-        color: $black;
+.oneProjectBlock {
+
+  width: 200px;
+  padding: 5px;
+  margin: 10px;
+
+  h4 {
+    font-size: $basicFontSize + 5px;
+    font-family: $basicFont;
+    line-height: 10px;
+    color: $black;
+
+  }
+
+  span {
+    @include basicText()
+  }
+
+}
+
+.projectPic {
+  position: relative;
+  border: 2px solid $light-grey;
+  width: 100%;
+  height: 200px;
+  background-color: darkslategray;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: all ease-in 0.7ms;
+
+
+  .projectBtn {
+    display: none;
+    transform: translateY(0%);
+    animation: ani 1s forwards;
+  }
+
+  &:hover {
+    box-shadow: 10px 10px 25px -1px rgba(0,0,0,0.75);
+    //opacity: 0.5;
+    background-size: 160%;
+
+    .projectBtn {
+      opacity: 1;
+      display: block;
+      @keyframes ani {
+        0% {transform: translateY(0%);}
+        100% {transform: translateY(100%);}
+      }
 
     }
-    span{
-        @include basicText()
-    }
+  }
 }
-.projectPic{
-    border: 2px solid $light-grey;
-    width: 100%;
-    height: 200px;
-    background-color: darkslategray;
-    border-radius: 10px;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+
+@media (max-width: 600px) {
+  .projectPic {
+    height: 100px;
+  }
 }
-@media (max-width: 600px){
-    .projectPic{
-        height: 100px;
-    }
-}
+
+
+
+
+

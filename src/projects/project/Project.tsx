@@ -9,10 +9,12 @@ type ProjectPropsType = {
 const Project = (props:ProjectPropsType) => {
     return (
         <div className={s.oneProjectBlock}>
-            <div className={s.projectPic} style={props.style}> </div>
+            <div className={s.projectPic} style={props.style}>
+                <div className={s.projectBtn}><a href="#">demo</a></div>
+                <div className={s.projectBtn}><a href="#" >code</a> </div>
+            </div>
             <h4>{props.title}</h4>
             <span>{props.description}</span>
-
         </div>
     );
 };

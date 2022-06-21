@@ -4,7 +4,7 @@ import SC from "../common/styles/Container.module.scss";
 
 const Contacts = () => {
     return (
-        <div className={s.contactsBlock}>
+        <div className={s.contactsBlock} id = 'contacts'>
             <div className={SC.container}>
                 <div className={s.myContacts}>
                     <h3>My contacts:</h3>

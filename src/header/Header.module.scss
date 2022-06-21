@@ -8,20 +8,21 @@
   background: #fff;
   border-bottom: 1px solid #f2f2f2;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   top: 0;
   animation-duration: 0.5s;
   animation-fill-mode: both;
   animation-name: fadeOut;
-  transition: all 0.3s ease-in-out;
+  //transition: all 0.3s ease-in-out;
 
-  .menuButton {
+
+  .menuButton{
     top: 14.5px;
     cursor: pointer;
     display: block;
     width: 30px;
     height: 14px;
-    right: 120px;
+    right: 10px;
     position: absolute;
 
     .before {
@@ -30,9 +31,7 @@
       display: block;
       height: 2px;
       background: #212121;
-      //&:hover{
-      //    transition: transform 0.2s;
-      //}
+      transition: transform 0.7s;
     }
 
     .main {
@@ -41,6 +40,7 @@
       display: block;
       height: 2px;
       background: #212121;
+      transition: transform 0.7s;
     }
 
     .after {
@@ -48,26 +48,42 @@
       display: block;
       height: 2px;
       background: #212121;
-    }
-
-    &:active {
-      .before {
-        width: 20px;
-        margin: 0;
-        transition: transform 0.5s;
-        transform: translateY(2px) rotate(45deg);
-      }
-
-      .main {
-        display: none;
-      }
-
-      .after {
-        width: 20px;
-        margin: 0;
-        transition: transform 0.5s;
-        transform: translateY(0) rotate(-45deg);
-      }
+      transition: transform 0.7s;
     }
   }
 }
+.menuButtonActive{
+  top: 14.5px;
+  cursor: pointer;
+  display: block;
+  width: 30px;
+  height: 14px;
+  right: 10px;
+  position: absolute;
+
+    .before {
+      display: block;
+      height: 2px;
+      background: #212121;
+      width: 20px;
+      margin: 0;
+      transition: transform 0.7s;
+      transform: translateY(2px) rotate(45deg);
+    }
+
+    .main {
+      display: none;
+    }
+
+    .after {
+      display: block;
+      height: 2px;
+      background: #212121;
+      width: 20px;
+      margin: 0;
+      transition: transform 0.7s;
+      transform: translateY(0) rotate(-45deg);
+    }
+
+}
+

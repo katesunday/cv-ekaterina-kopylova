@@ -1,4 +1,4 @@
-
+@import '../common/styles/variables';
 .skillsContainer{
     /*justify-content: flex-start;*/
     /*flex-direction: column;*/
@@ -7,6 +7,11 @@
 .skillsHeader{
     width: 100%;
     text-align: center;
+    span{
+        font-family: $basicFont;
+        font-size: $titleFontSize - 5px ;
+        color: $light-grey;
+    }
 }
 .skills{
     display: flex;
@@ -14,6 +19,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top: 15px;
 }
 @media (max-width: 400px){
     .skillsBlock{

@@ -6,7 +6,9 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  margin: 5px 5px 5px -45%;
+  margin: 5px 5px 5px -60%;
+  transform: translateY(-150%);
+  animation: ani 1s forwards;
 
   ul {
     list-style: none;
@@ -20,9 +22,9 @@
       a {
         //color: $black;
         font-family: $basicFont;
-        //font-size: $basicFontSize;
+        font-size: $basicFontSize;
         position: relative;
-        font-size: 11px;
+        //font-size: 11px;
         letter-spacing: 0.2em;
         text-decoration: none;
         color: #8a8a8a;
@@ -58,4 +60,8 @@
     }
   }
 
+}
+@keyframes ani {
+  0% {transform: translateY(-150%);}
+  100% {transform: translateY(0);}
 }

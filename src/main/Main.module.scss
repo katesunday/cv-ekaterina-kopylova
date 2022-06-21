@@ -2,14 +2,18 @@
 
 .mainDiv {
   height: 100vh;
-  background-image: url("../common/img/bg.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
+
 }
 
 .description {
+
   width: 300px;
-  //background-color: lightgray;
+  background-color: white;
+  border-radius: 100px 0px;
+  opacity: 0.7;
+  box-shadow: 10px 9px 40px 0px rgb(0 0 0 / 75%);
+  padding: 25px;
+
   p {
     font-family: $basicFont;
     font-size: $basicFontSize + 9px;
@@ -21,11 +25,6 @@
 
 }
 
-.photo {
-  width: 300px;
-  height: 400px;
-  background-color: lightsteelblue;
-}
 
 @media (max-width: 600px) {
   .mainDiv {

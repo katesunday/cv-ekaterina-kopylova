@@ -6,7 +6,7 @@ const Nav = () => {
         <div className={s.nav}>
             <ul>
                 <li>
-                    <a href=''>Main</a>
+                    <a href='#'>Main</a>
                 </li>
                 <li>
                     <a href=''>Skills</a>
@@ -18,14 +18,10 @@ const Nav = () => {
                     <a href=''>Experience</a>
                 </li>
                 <li>
-                    <a href=''>Contacts</a>
+                    <a href='#contacts'>Contacts</a>
                 </li>
 
             </ul>
-
-
-
-
         </div>
     );
 };
