@@ -60,10 +60,16 @@ const Contacts = () => {
                             <form onSubmit={formik.handleSubmit}>
                             <label htmlFor="name"  >Name</label>
                             <input type="text" id="name" {...formik.getFieldProps('name')}/>
+                                {formik.touched.name && formik.errors.name ?
+                                    <div className={s.error}>{formik.errors.name}</div> : null}
                             <label htmlFor="email">Email</label>
                             <input type="email" id="email" {...formik.getFieldProps('email')}/>
+                                {formik.touched.email && formik.errors.email ?
+                                    <div className={s.error}>{formik.errors.email}</div> : null}
                             <label htmlFor="message">Message</label>
                             <textarea id="message" {...formik.getFieldProps('message')} > </textarea>
+                                {formik.touched.message && formik.errors.message?
+                                    <div className={s.errorMessage}>{formik.errors.message}</div> : null}
                             <input id="submit" type='submit' name="submit" value="Send Email" />
                             </form>
                         </fieldset>
