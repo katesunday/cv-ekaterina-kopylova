@@ -21,7 +21,7 @@ const Main = () => {
                     minWidth: 200.00,
                     scale: 1.00,
                     scaleMobile: 1.00,
-                    color: 0xf72757,
+                    color: 0xff0505,
                     backgroundColor: 0xffffff,
                     showDots: false
                 })
@@ -31,7 +31,7 @@ const Main = () => {
         }
     },[vantaEffect])
     return (
-        <div className={s.mainDiv} ref = {vantaRef}  >
+        <div className={s.mainDiv} ref = {vantaRef} id ='main'  >
             <div className={SC.container} >
                 <div className={s.description}  >
                     <p>Hello!</p>

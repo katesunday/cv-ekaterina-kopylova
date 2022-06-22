@@ -9,7 +9,7 @@ const AllSkills = () => {
 
     return (
 
-        <div className={s.skillsBlock}>
+        <div className={s.skillsBlock} id = 'skills'>
 
             <div className={`${SC.container} ${s.skillsContainer}`}>
                 <div className={s.skillsHeader}>

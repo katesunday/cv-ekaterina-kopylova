@@ -4,7 +4,7 @@ import SC from '../common/styles/Container.module.scss'
 
 const HireMe = () => {
     return (
-        <div className={s.HireMeBlock}>
+        <div className={s.HireMeBlock} id = 'aboutMe'>
             <div className={`${SC.container} ${s.container}`}>
                 <h2>Considering remote work options.</h2>
                 <div>

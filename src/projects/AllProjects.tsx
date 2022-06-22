@@ -17,7 +17,7 @@ const AllProjects = () => {
         backgroundImage: `url(${soko})`
     }
     return (
-        <div className={s.allProjectsBlock}>
+        <div className={s.allProjectsBlock} id = 'projects'>
             <div className={`${SC.container} ${s.allProjectsContainer}`}>
                 <div className={s.projectTitle}>
                     <Title title={'My projects'}/>

@@ -9,6 +9,9 @@ const Header = () => {
     const [active , setActive] = useState(false)
     // const condition = active? 'active' : null
     //active ? s.menuButton + s.active :
+    const onCloseHandler = ()=>{
+        setActive(!active)
+    }
     return (
         <div className={s.headerDiv}>
             <div className={SC.container}>
@@ -30,7 +33,7 @@ const Header = () => {
                     onEntered={()=>setActive(true)}
                     onExit={()=>setActive(false)}
                 >
-                    {active ? <Nav/>: <></>}
+                    {active ? <Nav onClose = {onCloseHandler}/>: <></>}
                     {/*<Nav/>*/}
 
                 </CSSTransition>

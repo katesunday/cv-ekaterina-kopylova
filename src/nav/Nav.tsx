@@ -1,24 +1,27 @@
 import React from 'react';
 import s from './Nav.module.scss'
 
-const Nav = () => {
+type NavPropsType = {
+    onClose:()=>void
+}
+const Nav = (props:NavPropsType) => {
     return (
         <div className={s.nav}>
             <ul>
                 <li>
-                    <a href='#'>Main</a>
+                    <a href='#main' onClick={props.onClose}>Main</a>
                 </li>
                 <li>
-                    <a href=''>Skills</a>
+                    <a href='#skills' onClick={props.onClose}>Skills</a>
                 </li>
                 <li>
-                    <a href=''>Projects</a>
+                    <a href='#projects' onClick={props.onClose}>Projects</a>
                 </li>
                 <li>
-                    <a href=''>Experience</a>
+                    <a href='#aboutMe' onClick={props.onClose}>About me</a>
                 </li>
                 <li>
-                    <a href='#contacts'>Contacts</a>
+                    <a href='#contacts' onClick={props.onClose}>Contacts</a>
                 </li>
 
             </ul>
