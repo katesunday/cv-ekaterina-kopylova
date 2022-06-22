@@ -38,6 +38,7 @@ const Main = () => {
                     <p>My name is Ekaterina Kopylova.</p>
                     <p>I am front-end developer, based in Dubai, UAE.</p>
                     <p>Scroll down to check on my skills and projects.</p>
+                    <button className={s.CVBtn}>Download CV</button>
                 </div>
                 {/*<div className = {s.photo}>photo</div>*/}
             </div>
