@@ -9,7 +9,7 @@ const HireMe = () => {
                 <h2>Considering remote work options.</h2>
                 <div>
                     {/*<a href='#'>Download resume </a>*/}
-                    <a href='#'>Hire me</a>
+                    {/*<a href='#'>Hire me</a>*/}
 
                 </div>
 

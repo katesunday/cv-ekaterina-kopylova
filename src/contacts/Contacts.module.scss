@@ -72,8 +72,13 @@
   /*-ms-transition: all .3s ease-in-out;*/
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
+  cursor: pointer;
+  &:hover{
+    border-bottom: 2px solid #ed3200;
+  }
 }
 
 .contactForm textarea {
   min-height: 100px;
+  margin-bottom: 10px
 }
