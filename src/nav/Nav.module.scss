@@ -70,3 +70,14 @@
   from {transform: translateY(0);}
   to {transform: translateY(-150%);}
 }
+
+@media (max-width: 700px){
+  .nav{
+    margin: 5px 5px 5px -20%;
+  }
+}
+@media (max-width: 500px){
+  .nav{
+    margin: 5px 5px 5px 0;
+  }
+}
