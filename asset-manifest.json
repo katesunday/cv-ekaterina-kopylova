@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/cv-ekaterina-kopylova/static/css/main.af82ed67.css",
+    "main.css": "/cv-ekaterina-kopylova/static/css/main.b0341647.css",
     "main.js": "/cv-ekaterina-kopylova/static/js/main.4bdf268c.js",
     "static/js/787.bd5a8e12.chunk.js": "/cv-ekaterina-kopylova/static/js/787.bd5a8e12.chunk.js",
     "static/media/css-layout.png": "/cv-ekaterina-kopylova/static/media/css-layout.43779107cf77f32da5c1.png",
     "static/media/sokoban.webp": "/cv-ekaterina-kopylova/static/media/sokoban.4fa3fd5342603c90edd9.webp",
     "index.html": "/cv-ekaterina-kopylova/index.html",
-    "main.af82ed67.css.map": "/cv-ekaterina-kopylova/static/css/main.af82ed67.css.map",
+    "main.b0341647.css.map": "/cv-ekaterina-kopylova/static/css/main.b0341647.css.map",
     "main.4bdf268c.js.map": "/cv-ekaterina-kopylova/static/js/main.4bdf268c.js.map",
     "787.bd5a8e12.chunk.js.map": "/cv-ekaterina-kopylova/static/js/787.bd5a8e12.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af82ed67.css",
+    "static/css/main.b0341647.css",
     "static/js/main.4bdf268c.js"
   ]
 }
