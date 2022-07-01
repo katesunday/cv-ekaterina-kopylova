@@ -12,7 +12,8 @@ const Skill = (props:SkillPropsType) => {
             <div className={s.skillLogo}>
                 <Icon icon={props.iconName}  />
             </div>
-            <div className={s.skillTitle}> <span>{props.title}</span>
+            <div className={s.skillTitle}>
+                <span>{props.title}</span>
                 {/*<span className={s.skillPercentage}>80%</span>*/}
             </div>
             {/*<div className={s.skillLoader}></div>*/}

@@ -10,6 +10,12 @@ const AllProjects = () => {
     const description  =' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium, ' +
         'alias animi cum cumque delectus earum error expedita facere facilis molestias necessitatibus non ' +
         'odio porro quaerat qui reiciendis. Accusantium, perspiciatis.'
+
+    const JSGame = `Well known game 'Sokoban' was written using only vanilla JS.
+     It is a CRUD single page application using MVC pattern .
+     Animation is perfomed at canvas.
+     Database for users was created using Firebase. Feel free to try! `
+
     const cssImage = {
         backgroundImage: `url(${cssLayout})`
     }
@@ -24,9 +30,10 @@ const AllProjects = () => {
                 </div>
                 <div className={s.linksToProjects}>
                     <Project style = {cssImage} title={'CSS-Layout'} description={description}/>
-                    <Project style = {jsGAme} title={'JS-game'} description={description}/>
+                    <Project style = {jsGAme} title={'JS-game'} description={JSGame}/>
                     <Project style = {cssImage} title={'Social Network'} description={description}/>
                     <Project style = {cssImage} title={'Todolist'} description={description}/>
+                    <Project style = {cssImage} title={'Study Cards'} description={description}/>
                 </div>
 
             </div>

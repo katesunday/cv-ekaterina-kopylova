@@ -13,7 +13,7 @@ const AllSkills = () => {
 
             <div className={`${SC.container} ${s.skillsContainer}`}>
                 <div className={s.skillsHeader}>
-                    <Title title={'My tech skills'}/>
+                    <Title title={'My hard skills'}/>
                     <span>
                         Here are technologies I have got most experience with:
                      </span>
@@ -32,19 +32,17 @@ const AllSkills = () => {
                     <Skill title={"Firebase"} iconName={"firebase"}/>
                     <Skill title={"Formik"} iconName={"formik"}/>
                 </div>
-                {/*<div className={s.skillsHeader}>*/}
-                {/*    <Title title={'My meta skills'}/>*/}
-                {/*    <span>*/}
-                {/*        Help me im under the water*/}
-                {/*     </span>*/}
-                {/*</div>*/}
-                {/*<div className={s.skills}>*/}
-                {/*    <Skill title={'Communication'} iconName={'html5'}/>*/}
-                {/*    <Skill title={'Team work'} iconName={'html5'}/>*/}
-                {/*    <Skill title={'Empathy'} iconName={'html5'}/>*/}
-                {/*    <Skill title={'Adaptability'} iconName={'html5'}/>*/}
-
-                {/*</div>*/}
+                <div className={s.skillsHeader}>
+                    <Title title={'My soft skills'}/>
+                </div>
+                <div className={s.softSkills}>
+                    <Skill title={'Team work'} iconName={"teamwork-svgrepo-com"}/>
+                    <Skill title={'Empathy'} iconName={"empathy"}/>
+                    <Skill title={'Willingness to learn'} iconName={"study"}/>
+                    <Skill title={'Reliability'} iconName={"reliability"}/>
+                    <Skill title={'Adaptability'} iconName={"adaptation"}/>
+                    <Skill title={'Open-mindness'} iconName={"open-mind"}/>
+                </div>
             </div>
         </div>
     );
