@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5e473c3-00f7-45d8-aaa0-fc7f2791c70c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="a5e473c3-00f7-45d8-aaa0-fc7f2791c70c" name="Changes" comment="cv">
+      <change afterPath="$PROJECT_DIR$/src/common/img/myPhoto.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/Contacts.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/Contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/components/Title.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/Title.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/icons/selection.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/icons/selection.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skills/AllSkills.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/AllSkills.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skills/AllSkills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/AllSkills.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/skills/skill/Skill.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/skill/Skill.module.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="VAR" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/common/icons" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/common/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -57,6 +61,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/common/img" />
       <recent name="$PROJECT_DIR$/src/common/icons" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -93,7 +98,10 @@
       <workItem from="1651407699206" duration="732000" />
       <workItem from="1653908645131" duration="14809000" />
       <workItem from="1654000578409" duration="14571000" />
-      <workItem from="1655803328313" duration="47427000" />
+      <workItem from="1655803328313" duration="48080000" />
+      <workItem from="1656591275265" duration="4815000" />
+      <workItem from="1656674361214" duration="602000" />
+      <workItem from="1659698326628" duration="2780000" />
     </task>
     <task id="LOCAL-00001" summary="cv">
       <created>1651248047948</created>
@@ -242,7 +250,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655919250046</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="cv">
+      <created>1655984247402</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1655984247402</updated>
+    </task>
+    <task id="LOCAL-00023" summary="cv">
+      <created>1656674953748</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1656674953748</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

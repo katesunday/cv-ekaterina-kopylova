@@ -2,7 +2,8 @@ import React , {useEffect , useRef , useState} from 'react';
 import s from './Main.module.scss'
 import SC from '../common/styles/Container.module.scss'
 // @ts-ignore (no type declarations for vantajs)
- import VANTA from 'vanta/dist/vanta.net.min'
+import VANTA from 'vanta/dist/vanta.net.min'
+import myPhoto  from '../common/img/myPhoto.jpg'
 
 
 
@@ -33,15 +34,23 @@ const Main = () => {
     return (
         <div className={s.mainDiv} ref = {vantaRef} id ='main'  >
             <div className={SC.container} >
-                <div className={s.description}  >
-                    <p>Hello!</p>
-                    <p>My name is Ekaterina Kopylova.</p>
-                    <p>I am front-end developer, based in Dubai, UAE.</p>
-                    <p>Scroll down to check on my skills and projects.</p>
-                    <button className={s.CVBtn}>
-                        <a href="https://drive.google.com/file/d/129gGP05LKCd6RQ1KPJW7-zVumAU-TlHV/view?usp=sharing">Download CV</a>
-                    </button>
+                <div className={s.description}>
+                    <div className={s.myPhoto}>
+                        <img src={myPhoto} alt=""/>
+                    </div>
+                    <div className={s.descriptionText}>
+                        <p>Hello!</p>
+                        <p>My name is Ekaterina Kopylova.</p>
+                        <p>I am front-end developer, based in Dubai, UAE.</p>
+                        <p>Scroll down to check on my skills and projects.</p>
+                        <button className={s.CVBtn}>
+                            <a href="https://drive.google.com/file/d/129gGP05LKCd6RQ1KPJW7-zVumAU-TlHV/view?usp=sharing">Download CV</a>
+                        </button>
+                    </div>
+
+
                 </div>
+
             </div>
 
         </div>

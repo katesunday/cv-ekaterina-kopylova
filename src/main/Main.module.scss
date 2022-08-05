@@ -6,59 +6,72 @@
 }
 
 .description {
- position: relative;
-  width: 300px;
   background-color: white;
-  border-radius: 0px 100px ;
-  opacity: 0.7;
+  opacity: 1;
+  border-radius: 0px 100px;
   box-shadow: 10px 9px 40px 0px rgb(0 0 0 / 75%);
   padding: 25px;
-
-  p {
-    font-family: $basicFont;
-    font-size: $basicFontSize + 9px;
-    text-align: right;
-    line-height: 30px;
-    font-weight: $bold - 200;
-    color: #212121;
-  }
-  .CVBtn{
-    color: #ff2323;
-    font-size: $basicFontSize;
-    font-family: $basicFont;
-    border: 1px solid $light-grey;
-    border-radius: 3px;
-    background-color: white;
-    font-weight: $bold;
-    letter-spacing: 0.05em;
-    position: absolute;
-    width: 120px;
-    left: 59%;
-    bottom: 1%;
-    a{
-      text-decoration: none;
-      color: #ff2323;
+  display: flex;
+  flex-direction: row;
+  .myPhoto {
+    img{
+      width: 300px;
+      border-radius: 0 100px;
     }
-    &:hover{
-      background-color: #ff2323 ;
-      color: white;
-      box-shadow: inset 0 1px 0 0 #fcfcfc, inset 0 -1px 0 0 #f4f4f4, inset 0 0 0 1px #fbfbfb;
-      cursor: pointer;
-      a{
+
+  }
+  .descriptionText{
+    margin-left: 15px;
+    p {
+      font-family: $basicFont;
+      font-size: $basicFontSize + 9px;
+      text-align: right;
+      line-height: 30px;
+      font-weight: $bold - 200;
+      color: #212121;
+    }
+    .CVBtn {
+      color: #ff2323;
+      font-size: $basicFontSize +3px;
+      font-family: $basicFont;
+      border: 1px solid $light-grey;
+      border-radius: 5px;
+      font-weight: $bold;
+      letter-spacing: 0.05em;
+      padding: 5px;
+      float: right;
+
+      a {
+        text-decoration: none;
+        color: #f84344;
+      }
+
+      &:hover {
+        background-color: #f84344;
         color: white;
+        box-shadow: inset 0 1px 0 0 #fcfcfc, inset 0 -1px 0 0 #f4f4f4, inset 0 0 0 1px #fbfbfb;
+        cursor: pointer;
+
+        a {
+          color: white;
+        }
       }
     }
   }
-
 }
 
 
-@media (max-width: 600px) {
-  .mainDiv {
-
-  }
-  .photo {
-    width: 250px;
-    height: 300px;
+@media (max-width: 780px) {
+  .description {
+    .myPhoto {
+      img {
+        width: 200px;
+      }
+    }
+    .descriptionText{
+      p{
+        font-size: $basicFontSize + 3px;
+      }
+    }
   }
 }

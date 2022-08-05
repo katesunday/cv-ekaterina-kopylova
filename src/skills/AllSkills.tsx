@@ -19,18 +19,20 @@ const AllSkills = () => {
                      </span>
                 </div>
                 <div className={s.skills}>
+                    <Skill title={'React'} iconName={'react'}/>
+                    <Skill title={"React Native"} iconName={"react-native-40f97c1acb"}/>
+                    <Skill title={'React-redux'} iconName={'redux'}/>
+                    <Skill title={'JavaScript'} iconName={'javascript'}/>
+                    <Skill title={'TypeScript'} iconName={'typescript'}/>
                     <Skill title={'HTML5'} iconName={'html5'}/>
                     <Skill title={'CSS'} iconName={'css3'}/>
                     <Skill title={'Sass'} iconName={'sass'}/>
-                    <Skill title={'JavaScript'} iconName={'javascript'}/>
-                    <Skill title={'TypeScript'} iconName={'typescript'}/>
-                    <Skill title={'React'} iconName={'react'}/>
-                    <Skill title={'React-redux'} iconName={'redux'}/>
                     <Skill title={'Storybook'} iconName={'storybook'}/>
                     <Skill title={'GIT'} iconName={'github'}/>
                     <Skill title={"Bootstrap"} iconName={"bootstrap"}/>
                     <Skill title={"Firebase"} iconName={"firebase"}/>
                     <Skill title={"Formik"} iconName={"formik"}/>
+
                 </div>
                 <div className={s.skillsHeader}>
                     <Title title={'My soft skills'}/>
