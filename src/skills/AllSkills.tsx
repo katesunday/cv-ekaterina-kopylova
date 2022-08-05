@@ -41,9 +41,9 @@ const AllSkills = () => {
                     <Skill title={'Team work'} iconName={"teamwork-svgrepo-com"}/>
                     <Skill title={'Empathy'} iconName={"empathy"}/>
                     <Skill title={'Willingness to learn'} iconName={"study"}/>
+                    <Skill title={'Open-mindness'} iconName={"open-mind"}/>
                     <Skill title={'Reliability'} iconName={"reliability"}/>
                     <Skill title={'Adaptability'} iconName={"adaptation"}/>
-                    <Skill title={'Open-mindness'} iconName={"open-mind"}/>
                 </div>
             </div>
         </div>

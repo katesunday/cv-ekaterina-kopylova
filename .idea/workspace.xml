@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5e473c3-00f7-45d8-aaa0-fc7f2791c70c" name="Changes" comment="cv">
-      <change afterPath="$PROJECT_DIR$/src/common/img/myPhoto.jpg" afterDir="false" />
+    <list default="true" id="a5e473c3-00f7-45d8-aaa0-fc7f2791c70c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/components/Title.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/components/Title.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/common/icons/selection.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/icons/selection.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skills/AllSkills.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/AllSkills.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/Contacts.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/nav/Nav.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/nav/Nav.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/AllProjects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/AllProjects.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/projects/project/Project.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/project/Project.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/skills/AllSkills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/AllSkills.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/skills/skill/Skill.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/skill/Skill.module.scss" afterDir="false" />
     </list>
@@ -101,7 +100,7 @@
       <workItem from="1655803328313" duration="48080000" />
       <workItem from="1656591275265" duration="4815000" />
       <workItem from="1656674361214" duration="602000" />
-      <workItem from="1659698326628" duration="2780000" />
+      <workItem from="1659698326628" duration="3847000" />
     </task>
     <task id="LOCAL-00001" summary="cv">
       <created>1651248047948</created>
@@ -264,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656674953748</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="cv">
+      <created>1659701530679</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1659701530679</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -2,14 +2,12 @@
 
 .nav {
   width: 300px;
-  //border: 1px solid;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   margin: 5px 5px 5px -60%;
   transform: translateY(-150%);
   animation: ani 1s forwards;
-
 
   ul {
     list-style: none;
@@ -21,11 +19,9 @@
       margin-bottom: 10px;
 
       a {
-        //color: $black;
         font-family: $basicFont;
         font-size: $basicFontSize;
         position: relative;
-        //font-size: 11px;
         letter-spacing: 0.2em;
         text-decoration: none;
         color: #8a8a8a;
@@ -49,8 +45,9 @@
         }
 
       }
-      &:hover{
-        a:after{
+
+      &:hover {
+        a:after {
           width: 8px;
           height: 8px;
           background: transparent;
@@ -62,22 +59,33 @@
   }
 
 }
+
 @keyframes ani {
-  from {transform: translateY(-150%);}
-  to {transform: translateY(0);}
-}
-@keyframes aniClose {
-  from {transform: translateY(0);}
-  to {transform: translateY(-150%);}
+  from {
+    transform: translateY(-150%);
+  }
+  to {
+    transform: translateY(0);
+  }
 }
 
-@media (max-width: 700px){
-  .nav{
+@keyframes aniClose {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-150%);
+  }
+}
+
+@media (max-width: 700px) {
+  .nav {
     margin: 5px 5px 5px -20%;
   }
 }
-@media (max-width: 500px){
-  .nav{
+
+@media (max-width: 500px) {
+  .nav {
     margin: 5px 5px 5px -30%;
     width: 210px;
   }

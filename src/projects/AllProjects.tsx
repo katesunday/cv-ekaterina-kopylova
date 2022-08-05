@@ -29,11 +29,13 @@ const AllProjects = () => {
                     <Title title={'My projects'}/>
                 </div>
                 <div className={s.linksToProjects}>
+                    <Project style = {cssImage} title={'Study Cards'} description={description}/>
+                    <Project style = {cssImage} title={'Todolist'} description={description}/>
                     <Project style = {cssImage} title={'CSS-Layout'} description={description}/>
                     <Project style = {jsGAme} title={'JS-game'} description={JSGame}/>
                     <Project style = {cssImage} title={'Social Network'} description={description}/>
-                    <Project style = {cssImage} title={'Todolist'} description={description}/>
-                    <Project style = {cssImage} title={'Study Cards'} description={description}/>
+
+
                 </div>
 
             </div>
