@@ -1,7 +1,6 @@
 @import "src/common/styles/variables";
 
 .contactsBlock {
-  /*height: 100vh;*/
   padding-bottom: 40px;
   background-color: $bgc;
 
@@ -68,18 +67,19 @@
   border-radius: 0;
   font-family: source sans pro, sans-serif;
   font-size: 16px;
-  color: #8a8a8a;
+  color: $dark-grey;
+  font-weight: $bold;
   line-height: 22px;
   -webkit-font-smoothing: antialiased;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
-  /*-ms-transition: all .3s ease-in-out;*/
   -o-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
   cursor: pointer;
 
   &:hover {
     border-bottom: 2px solid #ed3200;
+    color: $red;
   }
 }
 

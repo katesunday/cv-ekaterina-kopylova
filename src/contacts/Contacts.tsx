@@ -12,7 +12,6 @@ type FormikErrorType = {
 }
 
 const Contacts = () => {
-    console.log(process.env)
     const form = useRef<HTMLFormElement>(null);
     const [loader,setLoader] = useState(false)
     const [message,setMessage] = useState('')
@@ -51,7 +50,6 @@ const Contacts = () => {
                 process.env.REACT_APP_CV_KEY || ''
             )
                 .then((res)=>{
-                    console.log(res)
                     setMessage('Your message is sent! Thank you!')
                     setTimeout(()=>{
                         setMessage('')
