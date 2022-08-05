@@ -75,3 +75,19 @@
     }
   }
 }
+@media (max-width: 520px) {
+  .description {
+    flex-direction: column;
+    .myPhoto {
+      margin: 0 auto;
+      img {
+        width: 200px;
+      }
+    }
+    .descriptionText{
+      p{
+        font-size: $basicFontSize;
+      }
+    }
+  }
+}
