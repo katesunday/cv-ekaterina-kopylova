@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cv-ekaterina-kopylova/static/css/main.48159703.css",
-    "main.js": "/cv-ekaterina-kopylova/static/js/main.cb9bfd12.js",
+    "main.js": "/cv-ekaterina-kopylova/static/js/main.17c3aa95.js",
     "static/js/787.bd5a8e12.chunk.js": "/cv-ekaterina-kopylova/static/js/787.bd5a8e12.chunk.js",
     "static/media/myPhoto.jpg": "/cv-ekaterina-kopylova/static/media/myPhoto.dde60be6fa949af1c8d6.jpg",
     "static/media/css-layout.png": "/cv-ekaterina-kopylova/static/media/css-layout.43779107cf77f32da5c1.png",
@@ -10,11 +10,11 @@
     "static/media/sokoban.webp": "/cv-ekaterina-kopylova/static/media/sokoban.4fa3fd5342603c90edd9.webp",
     "index.html": "/cv-ekaterina-kopylova/index.html",
     "main.48159703.css.map": "/cv-ekaterina-kopylova/static/css/main.48159703.css.map",
-    "main.cb9bfd12.js.map": "/cv-ekaterina-kopylova/static/js/main.cb9bfd12.js.map",
+    "main.17c3aa95.js.map": "/cv-ekaterina-kopylova/static/js/main.17c3aa95.js.map",
     "787.bd5a8e12.chunk.js.map": "/cv-ekaterina-kopylova/static/js/787.bd5a8e12.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.48159703.css",
-    "static/js/main.cb9bfd12.js"
+    "static/js/main.17c3aa95.js"
   ]
 }
