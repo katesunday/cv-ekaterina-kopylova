@@ -2,7 +2,7 @@ import React from 'react';
 import s from './HireMe.module.scss'
 import SC from '../common/styles/Container.module.scss'
 
-const HireMe = () => {
+const AboutMe = () => {
     return (
         <div className={s.HireMeBlock} id = 'aboutMe'>
             <div className={`${SC.container} ${s.container}`}>
@@ -19,4 +19,4 @@ const HireMe = () => {
     );
 };
 
-export default HireMe;
+export default AboutMe;

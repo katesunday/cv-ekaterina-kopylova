@@ -3,6 +3,7 @@ import s from './Contacts.module.scss'
 import SC from "../common/styles/Container.module.scss";
 import {useFormik} from "formik";
 import emailjs from '@emailjs/browser'
+import Title from "../common/components/Title";
 
 
 type FormikErrorType = {
@@ -71,6 +72,7 @@ const Contacts = () => {
     return (
         <div className={s.contactsBlock} id = 'contacts'>
             <div className={SC.container}>
+                <Title title={'Contacts'}/>
                 <div className={s.myContacts}>
                     <h3>My contacts:</h3>
                     <p><a href="mailto: ekaterina.sunday@gmail.com">ekaterina.sunday@gmail.com</a></p>
