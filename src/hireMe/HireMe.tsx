@@ -8,14 +8,7 @@ const AboutMe = () => {
         <div className={s.HireMeBlock} id = 'aboutMe'>
             <div className={`${SC.container} ${s.container}`}>
                 <Title title={'Contacts'}/>
-                <div>
-                    {/*<a href='#'>Download resume </a>*/}
-                    {/*<a href='#'>Hire me</a>*/}
-
-                </div>
-
             </div>
-
         </div>
     );
 };
