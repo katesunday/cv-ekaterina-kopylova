@@ -29,6 +29,8 @@
     text-decoration: none;
     outline: 0;
     color: $black;
+    -webkit-transition: 1s ease;
+
 
     &:hover {
       transition: all 0.5s ease-in-out;
@@ -79,7 +81,6 @@
 
   &:hover {
     border-bottom: 2px solid #ed3200;
-    color: $red;
   }
 }
 
@@ -109,14 +110,11 @@
 }
 
 .loader {
-  //width: 200px;
   height: 3px;
   position: relative;
   overflow: hidden;
   background-color: #d1d1d1;
-  //margin: 100px auto;
   border-radius: 20px;
-  //margin-bottom: 40px;
 }
 
 .loader:before {

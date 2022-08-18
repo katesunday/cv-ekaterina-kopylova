@@ -20,8 +20,8 @@ const AllProjects = () => {
     }
 
     const JSGame = {
-        demoLink: 'https://katesunday.github.io/new-project-ighw/' ,
-        codeLink: 'https://github.com/katesunday/new-project-ighw' ,
+        demoLink: 'https://katesunday.github.io/projectSokoban/' ,
+        codeLink: 'https://github.com/katesunday/projectSokoban' ,
         text: `Well known game 'Sokoban' was written using only vanilla JS.
      It is a CRUD single page application using MVC pattern .
      Animation is performed at canvas.
@@ -31,9 +31,15 @@ const AllProjects = () => {
     const todolistInfo = {
         demoLink: 'https://katesunday.github.io/todoList-ts/' ,
         codeLink: 'https://github.com/katesunday/todoList-ts' ,
-        text: ` Todolist is usefull SPA for creating and monitoring your everyday tasks.
+        text: ` Todolist is usefull SPA for adding and monitoring your everyday tasks.
                 Created using Redux Toolkit, Axios and styled with Material UI. Email and password for 
                 testing the APP are provided on login page.` ,
+    }
+    const cssTemplate = {
+        demoLink: 'https://katesunday.github.io/EkaterinaKopylova/maket-flex/index.html' ,
+        codeLink: 'https://github.com/katesunday/EkaterinaKopylova/blob/master/maket-flex/index.html' ,
+        text: ` Here is one of the several pages that were created for online shop. Whole template is done using flexbox and Scss.
+        Adaptive for different devices.` ,
     }
 
 
@@ -62,8 +68,8 @@ const AllProjects = () => {
                     />
                     <Project style={todolistStyle} title={'Todolist'} description={todolistInfo}/>
                     <Project style={jsGAme} title={'JS-game'} description={JSGame}/>
-                    <Project style={cssImage} title={'Social Network'} description={studyCardsInfo}/>
-                    <Project style={cssImage} title={'CSS-Template'} description={studyCardsInfo}/>
+                    {/*<Project style={cssImage} title={'Social Network'} description={studyCardsInfo}/>*/}
+                    <Project style={cssImage} title={'CSS-Template'} description={cssTemplate}/>
                 </div>
 
             </div>

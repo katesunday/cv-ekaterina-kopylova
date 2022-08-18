@@ -21,7 +21,6 @@ function App() {
         </div>
     );
 }
- //git remote set-url origin https://github.com/katesunday/cv-ekaterina-kopylova.git
- //git remote set-url origin git@github.com:katesunday/cv-ekaterina-kopylova.git
+
 
 export default App;
