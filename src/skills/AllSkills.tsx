@@ -8,9 +8,7 @@ import Title from "../common/components/Title";
 const AllSkills = () => {
 
     return (
-
         <div className={s.skillsBlock} id = 'skills'>
-
             <div className={`${SC.container} ${s.skillsContainer}`}>
                 <div className={s.skillsHeader}>
                     <Title title={'My hard skills'}/>

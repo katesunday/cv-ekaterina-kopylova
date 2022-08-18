@@ -31,12 +31,8 @@ const Header = () => {
                     onExit={() => setActive(false)}
                 >
                     {active ? <Nav onClose={onCloseHandler}/> : <></>}
-
                 </CSSTransition>
-
             </div>
-
-
         </div>
     );
 };

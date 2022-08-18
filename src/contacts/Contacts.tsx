@@ -100,8 +100,6 @@ const Contacts = () => {
                                 {message && <div className={s.messageOnSend}>{message}</div>}
                             </form>
                         </fieldset>
-
-
                 </div>
 
             </div>
