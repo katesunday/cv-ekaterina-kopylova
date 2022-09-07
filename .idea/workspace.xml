@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5e473c3-00f7-45d8-aaa0-fc7f2791c70c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/common/img/studyCards.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/common/img/todolist.png" afterDir="false" />
+    <list default="true" id="a5e473c3-00f7-45d8-aaa0-fc7f2791c70c" name="Changes" comment="cv">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/Contacts.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/Contacts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Main.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/AllProjects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/AllProjects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projects/project/Project.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/projects/project/Project.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/skills/AllSkills.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/skills/AllSkills.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.last.introduce.type" value="VAR" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/common/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -102,7 +94,11 @@
       <workItem from="1655803328313" duration="48080000" />
       <workItem from="1656591275265" duration="4815000" />
       <workItem from="1656674361214" duration="602000" />
-      <workItem from="1659698326628" duration="9100000" />
+      <workItem from="1659698326628" duration="9786000" />
+      <workItem from="1659957700733" duration="100000" />
+      <workItem from="1660667090147" duration="2000000" />
+      <workItem from="1660739922519" duration="3244000" />
+      <workItem from="1662461124946" duration="1150000" />
     </task>
     <task id="LOCAL-00001" summary="cv">
       <created>1651248047948</created>
@@ -286,7 +282,49 @@
       <option name="project" value="LOCAL" />
       <updated>1659704262934</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="cv">
+      <created>1659708463396</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1659708463396</updated>
+    </task>
+    <task id="LOCAL-00028" summary="cv">
+      <created>1660668484036</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1660668484036</updated>
+    </task>
+    <task id="LOCAL-00029" summary="cv">
+      <created>1660668582549</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1660668582549</updated>
+    </task>
+    <task id="LOCAL-00030" summary="cv">
+      <created>1660668743747</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1660668743747</updated>
+    </task>
+    <task id="LOCAL-00031" summary="cv">
+      <created>1660825536501</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1660825536501</updated>
+    </task>
+    <task id="LOCAL-00032" summary="cv">
+      <created>1660825811841</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1660825811841</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
