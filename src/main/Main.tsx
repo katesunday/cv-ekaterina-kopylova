@@ -48,8 +48,6 @@ const Main = () => {
                             >Download CV</a>
                         </button>
                     </div>
-
-
                 </div>
 
             </div>
