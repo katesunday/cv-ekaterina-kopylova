@@ -1,23 +1,23 @@
-@import "src/common/styles/variables";
+@import 'src/common/styles/variables';
 
-.HireMeBlock{
+.HireMeBlock {
     background-color: $bgc;
     padding-bottom: 20px;
     padding-top: 20px;
 }
-.container{
+.container {
     flex-direction: column;
     padding-bottom: 10px;
-    h2{
+    h2 {
         @include basicText();
-        font-size: $basicFontSize +10px;
+        font-size: $basicFontSize + 10px;
         color: $dark-grey;
     }
-    div{
+    div {
         display: flex;
         width: 300px;
         justify-content: space-around;
-        a{
+        a {
             border-bottom: 2px solid #ed3200;
             display: inline-block;
             font-size: $basicFontSize;
@@ -27,7 +27,7 @@
             text-decoration: none;
             outline: 0;
             color: $black;
-            &:hover{
+            &:hover {
                 transition: all 0.5s ease-in-out;
                 padding-left: 10px;
                 padding-right: 10px;
@@ -35,5 +35,4 @@
             }
         }
     }
-
 }

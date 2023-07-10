@@ -1,34 +1,32 @@
-@import "src/common/styles/variables";
-.skill{
+@import 'src/common/styles/variables';
+.skill {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 110px;
     height: 110px;
-    h3{
+    h3 {
         @include basicText();
         position: absolute;
         bottom: 0;
     }
-
 }
-.skillLogo{
+.skillLogo {
     width: 50px;
     height: 50px;
     transition: all 1s ease;
     border-radius: 100%;
-    &:hover{
+    &:hover {
         transform: scale(1.5);
-
     }
 }
-.skillTitle{
+.skillTitle {
     color: #212121;
     font-size: 12px;
     margin-top: 8px;
     letter-spacing: 0.05em;
     text-align: center;
-    span{
+    span {
         font-family: $basicFont;
         color: $dark-grey;
         font-size: $basicFontSize;
@@ -41,13 +39,13 @@
     //}
 }
 
-.skillLoader{
-    width: 200px ;
+.skillLoader {
+    width: 200px;
     height: 5px;
     border-radius: 5px;
-    background: linear-gradient(to right, #ed3200 70%, #cecbcb 30%)
+    background: linear-gradient(to right, #ed3200 70%, #cecbcb 30%);
 }
-.bar{
+.bar {
     height: 3px;
     background: #f2f2f2;
     border-radius: 3px;
@@ -59,13 +57,13 @@
     border-radius: 3px;
 }
 
-@media (max-width: 530px){
-    .skill{
+@media (max-width: 530px) {
+    .skill {
         width: 80px;
         height: 100px;
     }
-    .skillLogo{
+    .skillLogo {
         width: 40px;
-        height:40px;
+        height: 40px;
     }
 }

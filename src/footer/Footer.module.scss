@@ -1,5 +1,5 @@
-@import "src/common/styles/variables";
-.footerDiv{
+@import 'src/common/styles/variables';
+.footerDiv {
     display: flex;
     height: 80px;
     background-color: $dark-grey;
@@ -8,14 +8,14 @@
     flex-direction: column;
     padding-top: 10px;
 }
-.copyright{
-    font-family: arial,sans-serif;
+.copyright {
+    font-family: arial, sans-serif;
     font-size: 12px;
     color: #8a8a8a;
 }
-.linkedinLogo{
+.linkedinLogo {
     width: 30px;
 }
-.socialNetworks a{
+.socialNetworks a {
     margin: 5px;
 }
