@@ -75,7 +75,7 @@ const Contacts = () => {
                     <h3>My contacts:</h3>
                     <p><a href="mailto: ekaterina.sunday@gmail.com">ekaterina.sunday@gmail.com</a></p>
                     <div>
-                        <a href="tel:+971589757057">Contact me by phone</a>
+                        <a href="tel:+971585755712">Contact me by phone</a>
                     </div>
                 </div>
                 <div className={s.contactForm}>

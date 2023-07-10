@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5e473c3-00f7-45d8-aaa0-fc7f2791c70c" name="Changes" comment="cv">
+    <list default="true" id="a5e473c3-00f7-45d8-aaa0-fc7f2791c70c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/contacts/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/contacts/Contacts.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +99,8 @@
       <workItem from="1659957700733" duration="100000" />
       <workItem from="1660667090147" duration="2000000" />
       <workItem from="1660739922519" duration="3244000" />
-      <workItem from="1662461124946" duration="1150000" />
+      <workItem from="1662461124946" duration="2126000" />
+      <workItem from="1688996250598" duration="618000" />
     </task>
     <task id="LOCAL-00001" summary="cv">
       <created>1651248047948</created>
@@ -324,7 +326,28 @@
       <option name="project" value="LOCAL" />
       <updated>1660825811841</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="cv - link update">
+      <created>1662549217495</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1662549217495</updated>
+    </task>
+    <task id="LOCAL-00034" summary="cv - link update">
+      <created>1662549391732</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1662549391733</updated>
+    </task>
+    <task id="LOCAL-00035" summary="cv - link update">
+      <created>1662549436452</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1662549436452</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,6 +366,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="cv" />
-    <option name="LAST_COMMIT_MESSAGE" value="cv" />
+    <MESSAGE value="cv - link update" />
+    <option name="LAST_COMMIT_MESSAGE" value="cv - link update" />
   </component>
 </project>

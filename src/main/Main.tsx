@@ -44,7 +44,7 @@ const Main = () => {
                         <p>I am front-end developer, based in Dubai, UAE.</p>
                         <p>Scroll down to check on my skills and projects.</p>
                         <button className={s.CVBtn}>
-                            <a href="https://drive.google.com/file/d/1uM9Fb4YOFaqWEF0GxjVN7vzYYoKvKUeb/view?usp=drivesdk" target="_blank" rel="noreferrer"
+                            <a href="https://drive.google.com/file/d/1z8VJ90dtoJ325DXFysiDzmDdgRe0mz6E/view" target="_blank" rel="noreferrer"
                             >Download CV</a>
                         </button>
                     </div>
