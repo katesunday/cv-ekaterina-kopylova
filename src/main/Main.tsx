@@ -44,7 +44,7 @@ const Main = () => {
                         <p>Scroll down to check on my skills and projects.</p>
                         <button className={s.CVBtn}>
                             <a
-                                href="https://drive.google.com/file/d/1z8VJ90dtoJ325DXFysiDzmDdgRe0mz6E/view"
+                                href="https://drive.google.com/file/d/1a3QuZfwyB_7qbg1H8VSStw0TWyQwD9Yb/view?usp=drivesdk"
                                 target="_blank"
                                 rel="noreferrer"
                             >
